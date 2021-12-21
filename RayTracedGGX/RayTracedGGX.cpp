@@ -350,8 +350,6 @@ void RayTracedGGX::OnKeyUp(uint8_t key)
 // User camera interactions.
 void RayTracedGGX::OnLButtonDown(float posX, float posY)
 {
-	m_tracking = true;
-	m_mousePt = XMFLOAT2(posX, posY);
 }
 
 void RayTracedGGX::OnLButtonUp(float posX, float posY)
